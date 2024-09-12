@@ -728,7 +728,8 @@ var ava = body1.getAttribute("ava");
 
 //document.body.innerHTML = atob(aaaa22);
 document.body.innerHTML = learnCoding;
-document.getElementById("avi").innerHTML = '<img src="'+atob(ava)+'"/>';
+document.getElementById("avi").innerHTML = '<img src="'+ava+'"/>';
+//document.getElementById("avi").innerHTML = '<img src="'+atob(ava)+'"/>';
 
 
 if(emhref){
